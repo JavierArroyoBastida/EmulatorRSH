@@ -7,7 +7,7 @@ model wrapped "Wrapped model"
 	// Out read
 	Modelica.Blocks.Interfaces.RealOutput outputP_y(unit="W") = mod.outputP.y "Pump electrical power";
 	Modelica.Blocks.Interfaces.RealOutput outputQ_y(unit="W") = mod.outputQ.y "Thermal power";
-	Modelica.Blocks.Interfaces.RealOutput outputT_y(unit="K") = mod.outputT.y "Operative temperature of the zone";
+	Modelica.Blocks.Interfaces.RealOutput outputT_y(unit="K") = mod.outputT.y "Zone temperature";
 	// Original model
 	SingleZoneResidentialHydronicPackage.SingleZoneResidentialHydronic mod(
 		TSetExt(uExt(y=TSetExt_u),activate(y=TSetExt_activate)),

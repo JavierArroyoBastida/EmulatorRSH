@@ -1,1 +1,1 @@
-{"OperativeZoneTemperature": ["outputT_y"], "GasPower": ["outputQ_y"], "ElectricPower": ["outputP_y"]}
+{"GasPower": ["outputQ_y"], "ElectricPower": ["outputP_y"], "AirZoneTemperature": ["outputT_y"]}
